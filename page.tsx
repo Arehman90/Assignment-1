@@ -1,24 +1,47 @@
-import Link from "next/link";
-import { error } from "console";
-
-export default function Contactus() {
-     throw new Error
+export default function Education() {
   return (
-    <div className="p-8">
-      <h1 className="font-mono font-bold text-4xl">
-        <i>
-          
-          <u> Contact-ME! </u>
-        </i>
-      </h1>
+    <div
+      className="bg-slate-100
+      w-7/12
+      h-auto
+      rounded-xl
+      ml-72
+      "
+    >
+      <h1 className="text-2xl font-bold text-center">Qualification!</h1>
       <br />
-      <p className="text-lg">
-        1)<i> ar5507198@gmail.com </i>
-      </p>
-      <p className="text-lg">
-        {" "}
-        2)<i> 03197952903.</i>
-      </p>
+      <div className="bg-slate-200 w-10/12 ml-16 h-48 rounded-md p-3   hover:shadow-md">
+        <h2 className="text-2xl decoration-dashed font-semibold ">
+          MATRICULATION:
+        </h2>
+        <br />
+        <p>
+          <b>Year:</b> 2020
+          <br />
+          <b>Institite:</b> Adamjee Schooling System
+          <br />
+          <b>Field:</b> Science
+          <br />
+          <b>Grade:</b> B
+        </p>
+      </div>
+      <br />
+      <br />
+      <div className="bg-slate-200 w-10/12 ml-16 h-48 rounded-md p-3   hover:shadow-md">
+        <h2 className="text-2xl decoration-dashed font-semibold ">
+          INTERMEDIATE:
+        </h2>
+        <br />
+        <p>
+          <b>Year:</b> 2022
+          <br />
+          <b>Institite:</b> Dehli Science and Commerce College
+          <br />
+          <b>Field:</b> Science
+          <br />
+          <b>Grade:</b> B
+        </p>
+      </div>
     </div>
   );
 }
